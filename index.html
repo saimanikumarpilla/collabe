@@ -3,21 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        input,button,p{
-            margin: 10px;
-            width: 200px;
-        }
-    </style>
+    <title>DAY FINDER</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input class="year" type="number" placeholder="Enter the year"><br>
-    <input class="month" type="number" placeholder="Enter the month(0-12)"><br>
-    <input class="day" type="number" placeholder="Enter the day"><br>
-    <p class="op">day will display hear
-    </p>
-    <button onclick="main()">find day</button><br>
+<div class="container">
+    <h1>DAY FINDER</h1>
+    <input class="year s2" type="number" placeholder="Enter the year"><br>
+    <input class="month s2" type="number" placeholder="Enter the month(0-12)"><br>
+    <input class="day s2" type="number" placeholder="Enter the day"><br>
+    <p class="op">day will display hear</p>
+    <button class="bt" onclick="main()">Find Day</button><br>
+</div>
     <script >
         function monthCode(month) {
     // Returns month code
