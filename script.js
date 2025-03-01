@@ -13,7 +13,7 @@ function findDay(year, month, date) {
     const k = year % 100;
     const j = Math.floor(year / 100);
     
-    const f = q + Math.floor((13 * (m + 1)) / 5) + k + Math.floor(k / 4) + Math.floor(j / 4) - (2 * j);
+    const f = q + Math.floor((13 * (m + 1)) / 5) + k + Math.floor(k / 4) + Math.floor(j / 4) + (5 * j);
     const day = ((f % 7) + 7) % 7;
     return day;
 }
